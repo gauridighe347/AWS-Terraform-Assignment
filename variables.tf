@@ -19,7 +19,7 @@ variable "aws_region" {
 }
 
 variable "key_name" {
-  default = "MY-KEY"
+  default = "mykey-pair"
 }
 
 variable "instance_type" {
