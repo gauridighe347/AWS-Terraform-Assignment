@@ -12,7 +12,7 @@ apt update -y
 apt install nginx -y
 systemctl enable nginx
 systemctl start nginx
-echo "<h1>Hello from EC2 via Terraform!</h1>" > /var/www/html/index.nginx-debian.html
+echo "<h1>Welcome Gauri! Terraform deployment successful 🚀</h1>" > /var/www/html/index.nginx-debian.html
 EOF
 
   tags = {
