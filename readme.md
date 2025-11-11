@@ -13,7 +13,7 @@ The setup provisions a **VPC**, **public and private subnets**, an **Application
 - Includes **public** and **private** subnets
 - Configured Internet Gateway for external access
 
-![Website Screenshot](assets/Screenshot%202025-11-09%20221835.png)
+![EC2 Instance](./assets/vpc.jpg)
 
 ### 2️⃣ Subnets
 - **Public Subnet 1:** `20.0.4.0/24` in `ap-south-1a`  
